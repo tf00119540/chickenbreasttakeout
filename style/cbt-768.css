@@ -1,0 +1,166 @@
+@media (max-width: 768px) {
+  .headerMain{
+    display: block;
+  }
+
+  .logoMain{
+    padding-top: 30px;
+  }
+
+  .logoSec{
+    height: 70%;
+  }
+
+  .logoTri {
+  aspect-ratio: 7/2;
+  background: url("../images/logo/cover01.png") center center no-repeat;
+  background-size: cover;
+  /* margin-top: 50px; */
+  } 
+
+  .navMain{
+    display: none;
+  }
+
+  header>div>div:nth-of-type(3) {
+    position: fixed;
+    top: 0vw;
+    left: 0vh;
+    z-index: 99999999;
+    opacity: 0;
+    transition: 0.5s cubic-bezier(.53,0,.54,.01);
+    font-size: 16px;
+  }
+
+  #menuBtn {
+    display: block;
+  }
+  
+  .navMai:hover{
+    opacity: 1 ;
+  }
+
+  .navSec {
+    top: 0;
+    display: block;
+  }
+
+  .navSec a {
+  padding: 12px 12px;
+}
+
+  .navSec > li  a {
+    color: white;
+  }
+
+  .navSec li ul {
+    background-color: transparent;
+    border: 2px solid white;
+  }
+
+  .navSec li ul a {
+      text-align: center;
+  }
+
+  .navSec > li > ul > li > a:hover {
+  border-bottom: 2px dashed white;
+  }
+
+  .navMain ul ul {
+  position: static;
+  margin: auto;
+  width: 50%;
+  display: none;
+  z-index: 9999999;
+}
+
+  #d01,#d02:hover {
+    border-bottom: none;
+  }
+
+  .navSec > li:nth-of-type(1) > a::before {
+    content: none;
+  }
+  .navSec > li:nth-of-type(2) > a::before {
+    content: none;
+  }
+  .navSec > li:nth-of-type(3) > a::before {
+    content: none;
+  }
+  .navSec > li:nth-of-type(4) > a::before {
+    content: none;
+  }
+
+  #memNav {
+  position: fixed;
+  right: 4vw;
+  top: 3vh;
+  }
+
+  .newMain {
+    margin-bottom: 44px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newMain > div {
+    width: 100%;
+    height: 240px;
+    background-size: contain;
+  }
+  .newAside {
+    width: 100%;
+    height: 120px;
+  }
+  .styleh2 {
+    margin-top: 20px;
+  }
+
+  .newImages01 {
+    background: url(../images/new01-768.webp) top center no-repeat;
+  }
+  .newImages02 {
+    background: url(../images/new02-768.webp) top center no-repeat;
+  }
+
+  .newImages03 {
+    background: url(../images/new03-768.webp) top center no-repeat;
+  }
+  .footerMain {
+    height: 280px;
+  }
+
+  .footerSec {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .footerImage {
+    background: url(../images/fb-footer01.png) center center no-repeat;
+    background-size: contain;
+    width: 88%;
+    margin: auto;
+  }
+
+  .footerAddress {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .footer-adress-link {
+    display: block;
+  }
+
+  .footerNav {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 50px;
+  }
+}
+
